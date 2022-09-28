@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './shared/components/Header';
 
 const WebAppTitle = () => {
   return (
@@ -13,6 +14,7 @@ const WebAppTitle = () => {
 const App = () => {
   return (
     <>
+      <Header />
       <WebAppTitle />
     </>
   );
